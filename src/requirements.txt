@@ -1,0 +1,7 @@
+bs4
+pandas
+flask
+requests
+sqlalchemy
+pymysql
+cryptography
