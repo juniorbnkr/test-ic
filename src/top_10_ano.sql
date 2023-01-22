@@ -10,4 +10,4 @@ GROUP BY o.registro_ans,
 		o.nome_fantasia,
 		o.razao_social
 ORDER BY SUM(VL_SALDO_FINAL) DESC
-limit 10;
+LIMIT 10;
