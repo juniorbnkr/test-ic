@@ -1,0 +1,46 @@
+{
+	"info": {
+		"_postman_id": "2f822336-319e-41ce-b58f-829229e8d7d2",
+		"name": "teste-ic",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25457576"
+	},
+	"item": [
+		{
+			"name": "localhost:5000/ano",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:5000/ano",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"ano"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:5000/trimestre",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:5000/trimestre",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"trimestre"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
