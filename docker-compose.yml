@@ -23,5 +23,9 @@ services:
             MYSQL_DATABASE: ic-test
         volumes:
             - "./src/schema.sql:/docker-entrypoint-initdb.d/1.sql"
+        healthcheck:
+            test: ["CMD", "mysqladmin" ,"ping", "-h", "localhost"]
+            timeout: 20s
+            retries: 10
 
 
