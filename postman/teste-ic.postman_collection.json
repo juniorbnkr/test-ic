@@ -41,6 +41,25 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "Exemplo busca",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:5000/busca/vida",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"busca",
+						"vida"
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
